@@ -1,5 +1,9 @@
 //Autor: alstshdaw2vib
+
 //Data i hora: 10/05/2018 - 9:27
+
+//Data i hora: 10/05/2018 - 9:19
+
 
 #include <stdio.h>
 
@@ -21,8 +25,13 @@ int main() {
 		scanf(" %c",&consulta); 
 	}
 	mitjana=suma/numero_repeticions;
+
 	printf("La mitjana resultant és: %.2f\n",mitjana);
 	printf("La mitjana ha estat trobada amb èxit\n");	
 	
+
+	printf("La mitjana resultant és: %.2f\n",mitjana);	
+	printf("Operació finalitzada amb èxit\n");
+
 	return 0;
 }
